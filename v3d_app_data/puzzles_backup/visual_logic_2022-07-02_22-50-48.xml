@@ -1,0 +1,147 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1190" scrolly="587" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="822.4765716371896" scrolly="479.46236191329854" scale="0.5365818015930097">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="oucIQ(BFBR`]7)f4xYqK">animation</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Yfo#R{ED6Avp4#8lR_lu" x="-1270" y="-670">
+      <field name="VAR" id="oucIQ(BFBR`]7)f4xYqK">animation</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="HRKXDX%ntI-g=!^[e[S/">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="B-$95,LWCJcIyBOltpHn" x="-1270" y="-590">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="4R{mi%(TdH$cI-b6${6G">
+          <field name="FIELDNAME">NameTagOutside</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_ifelse" id="cvn0{Wx.e=qma]tOsB7#">
+          <value name="IF0">
+            <block type="variables_get" id="%=?(nmr)Y:xT|![QzJmf">
+              <field name="VAR" id="oucIQ(BFBR`]7)f4xYqK">animation</field>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="variables_set" id="i(x.}5*61MO`OcE~j1t5">
+              <field name="VAR" id="oucIQ(BFBR`]7)f4xYqK">animation</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="hlTZspg]712lyO_K/9={">
+                  <field name="BOOL">FALSE</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="variables_set" id="Z]qL0nj:HP[B,OUWB9|U">
+              <field name="VAR" id="oucIQ(BFBR`]7)f4xYqK">animation</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="et)-~aY_0B51r5C%c$mK">
+                  <field name="BOOL">TRUE</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <next>
+        <block type="controls_ifelse" id="YKo;=UWU:wY}}Q?JYR4,">
+          <value name="IF0">
+            <block type="variables_get" id="LaeR`|:ks#c,.sA@|WA!">
+              <field name="VAR" id="oucIQ(BFBR`]7)f4xYqK">animation</field>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id=";I;`u3B`ui?ud8WpP[!L">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopRepeat</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="G?;8T?GAwYhCohQAOR|p">
+                  <field name="FIELDNAME">door wall</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="is|.Gwo$wVp]9FX%/^4I">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopRepeat</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="}m:a}Jp5.rMi@vGUC@zC">
+                      <field name="FIELDNAME">roof</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="/r.IJ~%athe-bt9f_nX.">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopRepeat</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="eVp1j=KaO?y;`!0vkQYP">
+                          <field name="FIELDNAME">window wall</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="stopAnimation" id="sedzI+8jf2$dgZjh(k71">
+              <value name="VALUE">
+                <shadow type="animationList" id="Yo}vON]RA+32ix6zy){d">
+                  <field name="FIELDNAME">door wall</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=";yFx+XF~ro}r(Gp|u`PM" x="-1250" y="-170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="8ntiqA`o*O/bEJg7))LN">
+          <field name="FIELDNAME">noticeGuide</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="N~D|,;ywdteHP23AH@9N">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">SPHERICAL</field>
+          <value name="POSITION">
+            <block type="objectList" id="ZSu4:RiZ3||?-{Xc-[]h">
+              <field name="FIELDNAME">cameraLocationToNotice</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="pX;p4h]L|d1jBh2M:R2V">
+              <field name="FIELDNAME">Plane.007</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="!l5mQjX5BR{x^SUfNE.v">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1039.6" viewport-y="74" viewport-w="546.4" viewport-h="331.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

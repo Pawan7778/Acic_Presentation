@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1190" scrolly="587" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1184" scrolly="587" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="stopAnimation" id="sedzI+8jf2$dgZjh(k71" x="-1190" y="-430">
+      <value name="VALUE">
+        <shadow type="animationList" id="Yo}vON]RA+32ix6zy){d">
+          <field name="FIELDNAME">door wall</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="stopAnimation" id="dcTI4rTt5YF*f5[y6AA1">
+          <value name="VALUE">
+            <shadow type="animationList" id="#DVahezC4mg`RxAdna9C">
+              <field name="FIELDNAME">roof</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="stopAnimation" id="GMaE8^=R7)(^|=+zH{O_">
+              <value name="VALUE">
+                <shadow type="animationList" id="-mD-)@zd=kjqzA2My]F[">
+                  <field name="FIELDNAME">window wall</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="28" viewport-w="546.4" viewport-h="331.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

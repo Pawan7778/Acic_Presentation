@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1190" scrolly="587" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1184" scrolly="587" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="4br?nM$m0y8w[.{a[1=d" x="-1230" y="-470">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="ozDM.0oSyA1zMsNgur:f">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="28" viewport-w="546.4" viewport-h="331.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
