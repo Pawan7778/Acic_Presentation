@@ -1,25 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="1115.1325440295482" scrolly="578.7607348324432" scale="0.7793451749192758">
-    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="=nC`xwtweM1#jTR:sAA~" x="-1290" y="-350">
-      <statement name="DO_END">
-        <block type="setHTMLElemStyle" id="FW7,5lScus^j|xFCOJ*_">
-          <field name="PROPERTY">display</field>
-          <field name="PARENT">TRUE</field>
-          <value name="VALUE">
-            <block type="text" id="pKuO3PL5RBqFhS$dz3Z9">
-              <field name="TEXT">none</field>
-            </block>
-          </value>
-          <value name="ID">
-            <shadow type="text" id="jtmWgO^`u9WwKN;=?lWF">
-              <field name="TEXT">preloader</field>
-            </shadow>
-          </value>
-        </block>
-      </statement>
-    </block>
-  </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="1229.2861208833162" scrolly="-170.50359066396004" scale="0.77214117994704">
+  <tab name="init" type="InitTab" active="false" scrollx="1189" scrolly="586" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1229.2861208833162" scrolly="-170.50359066396015" scale="0.77214117994704">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="X^^vCNmPXewXio`*64Ji">animation</variable>
       <variable id="bG`Ijp]Nzj:ti=mtGOTX">directorname</variable>
