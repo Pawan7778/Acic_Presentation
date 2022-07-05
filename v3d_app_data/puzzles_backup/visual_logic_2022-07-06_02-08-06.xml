@@ -19,7 +19,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1116.5420212283398" scrolly="-652.3252759384898" scale="0.7721411799470369">
+  <tab name="main" type="MainTab" active="true" scrollx="1116.5420212283398" scrolly="-652.3252759384893" scale="0.7721411799470369">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="X^^vCNmPXewXio`*64Ji">animation</variable>
       <variable id="bG`Ijp]Nzj:ti=mtGOTX">directorname</variable>
@@ -822,51 +822,18 @@
                                     </block>
                                   </value>
                                   <next>
-                                    <block type="setHTMLElemStyle" id="t)32ecHGz#;YJFh:V|HR">
+                                    <block type="setHTMLElemStyle" id="!?hN3BKir?X8MLXrRLt6">
                                       <field name="PROPERTY">display</field>
-                                      <field name="PARENT">FALSE</field>
+                                      <field name="PARENT">TRUE</field>
                                       <value name="VALUE">
-                                        <block type="text" id="Z%~!RGkX?0c7Dw7S+cS1">
+                                        <block type="text" id=".j?-ey#uR0@BKFv7c:ey">
                                           <field name="TEXT">none</field>
                                         </block>
                                       </value>
                                       <value name="ID">
-                                        <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
+                                        <shadow type="text" id="x[c%-KI1)Q;]e#b{Ly7A">
                                           <field name="TEXT">poi1</field>
                                         </shadow>
-                                        <block type="lists_create_with" id="=PYS3NAG0IOu,=)l0Ft@">
-                                          <mutation items="6"></mutation>
-                                          <value name="ADD0">
-                                            <block type="text" id="FLTy(C%s.?=l/hs-{pNw">
-                                              <field name="TEXT">poi1</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD1">
-                                            <block type="text" id="*P-TYpu6Xxi@do#to0:J">
-                                              <field name="TEXT">poi2</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD2">
-                                            <block type="text" id="1Nbwp1Ya5WAd0i%DLN*b">
-                                              <field name="TEXT">poi3</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD3">
-                                            <block type="text" id="REZZzKor|y*BMvQPW^|o">
-                                              <field name="TEXT">poi4</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD4">
-                                            <block type="text" id="mz6%VlFll:]E2hz,u8oO">
-                                              <field name="TEXT">poi5</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD5">
-                                            <block type="text" id="Jig1b46~ypHG$$[c_YQd">
-                                              <field name="TEXT">poi6</field>
-                                            </block>
-                                          </value>
-                                        </block>
                                       </value>
                                       <next>
                                         <block type="tweenCameraExt" id="Mdn|u.!yyz:krVda`2}$">
@@ -905,6 +872,53 @@
           </statement>
         </block>
       </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="|bari_^by3k)UlPf:+WS" x="-1290" y="1210">
+      <field name="PROPERTY">display</field>
+      <field name="PARENT">TRUE</field>
+      <value name="VALUE">
+        <block type="text" id="Q0[o`fJ[zYRDJ4X3,Q(}">
+          <field name="TEXT">none</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
+          <field name="TEXT">poi1</field>
+        </shadow>
+        <block type="lists_create_with" id="QVY]g6CL}^mmN6`;3:fs">
+          <mutation items="6"></mutation>
+          <value name="ADD0">
+            <block type="text" id="[HqAF}z}$+rx09p,,0{s">
+              <field name="TEXT">poi1</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="text" id="?;Fd4G2:4gTpodC.6F6j">
+              <field name="TEXT">poi2</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="text" id=".T5e@y-1HGnf:n1-0;Va">
+              <field name="TEXT">poi3</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="text" id="7j,LA3NTk`8z1{6|tLXB">
+              <field name="TEXT">poi4</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="text" id="Kz?Reb1Hf5C?]JoETG#9">
+              <field name="TEXT">poi5</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="text" id="3aM]NIUY1TrZuY2vYEZ/">
+              <field name="TEXT">poi6</field>
+            </block>
+          </value>
+        </block>
+      </value>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="D~c2e%C-^GM03I)Z;qqS" x="-1310" y="1390">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
@@ -999,7 +1013,7 @@
                                   </value>
                                   <next>
                                     <block type="tweenCameraExt" id=",=xIA+J$q59e|:3-7GAL">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
                                       <field name="MOVEMENT_TYPE">LINEAR</field>
                                       <value name="POSITION">
                                         <block type="objectList" id="qih{2q;{Qa8#J^c_BU|/">
@@ -1016,55 +1030,22 @@
                                           <field name="NUM">0</field>
                                         </shadow>
                                       </value>
-                                      <statement name="DO">
-                                        <block type="setHTMLElemStyle" id="|bari_^by3k)UlPf:+WS">
+                                      <next>
+                                        <block type="setHTMLElemStyle" id="o48FT@bE%NQ]zq=VC9o`">
                                           <field name="PROPERTY">display</field>
-                                          <field name="PARENT">FALSE</field>
+                                          <field name="PARENT">TRUE</field>
                                           <value name="VALUE">
-                                            <block type="text" id="Q0[o`fJ[zYRDJ4X3,Q(}">
+                                            <block type="text" id="Zm=vXtv}(3*EZsp*oak5">
                                               <field name="TEXT">block</field>
                                             </block>
                                           </value>
                                           <value name="ID">
-                                            <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
+                                            <shadow type="text" id="/O?w=HpLKxEh7@Kgtj8K">
                                               <field name="TEXT">poi1</field>
                                             </shadow>
-                                            <block type="lists_create_with" id="QVY]g6CL}^mmN6`;3:fs">
-                                              <mutation items="6"></mutation>
-                                              <value name="ADD0">
-                                                <block type="text" id="[HqAF}z}$+rx09p,,0{s">
-                                                  <field name="TEXT">poi1</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD1">
-                                                <block type="text" id="?;Fd4G2:4gTpodC.6F6j">
-                                                  <field name="TEXT">poi2</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD2">
-                                                <block type="text" id=".T5e@y-1HGnf:n1-0;Va">
-                                                  <field name="TEXT">poi3</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD3">
-                                                <block type="text" id="7j,LA3NTk`8z1{6|tLXB">
-                                                  <field name="TEXT">poi4</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD4">
-                                                <block type="text" id="Kz?Reb1Hf5C?]JoETG#9">
-                                                  <field name="TEXT">poi5</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD5">
-                                                <block type="text" id="3aM]NIUY1TrZuY2vYEZ/">
-                                                  <field name="TEXT">poi6</field>
-                                                </block>
-                                              </value>
-                                            </block>
                                           </value>
                                         </block>
-                                      </statement>
+                                      </next>
                                     </block>
                                   </next>
                                 </block>

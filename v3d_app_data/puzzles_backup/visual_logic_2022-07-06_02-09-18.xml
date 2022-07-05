@@ -822,51 +822,18 @@
                                     </block>
                                   </value>
                                   <next>
-                                    <block type="setHTMLElemStyle" id="t)32ecHGz#;YJFh:V|HR">
+                                    <block type="setHTMLElemStyle" id="!?hN3BKir?X8MLXrRLt6">
                                       <field name="PROPERTY">display</field>
-                                      <field name="PARENT">FALSE</field>
+                                      <field name="PARENT">TRUE</field>
                                       <value name="VALUE">
-                                        <block type="text" id="Z%~!RGkX?0c7Dw7S+cS1">
+                                        <block type="text" id=".j?-ey#uR0@BKFv7c:ey">
                                           <field name="TEXT">none</field>
                                         </block>
                                       </value>
                                       <value name="ID">
-                                        <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
+                                        <shadow type="text" id="x[c%-KI1)Q;]e#b{Ly7A">
                                           <field name="TEXT">poi1</field>
                                         </shadow>
-                                        <block type="lists_create_with" id="=PYS3NAG0IOu,=)l0Ft@">
-                                          <mutation items="6"></mutation>
-                                          <value name="ADD0">
-                                            <block type="text" id="FLTy(C%s.?=l/hs-{pNw">
-                                              <field name="TEXT">poi1</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD1">
-                                            <block type="text" id="*P-TYpu6Xxi@do#to0:J">
-                                              <field name="TEXT">poi2</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD2">
-                                            <block type="text" id="1Nbwp1Ya5WAd0i%DLN*b">
-                                              <field name="TEXT">poi3</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD3">
-                                            <block type="text" id="REZZzKor|y*BMvQPW^|o">
-                                              <field name="TEXT">poi4</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD4">
-                                            <block type="text" id="mz6%VlFll:]E2hz,u8oO">
-                                              <field name="TEXT">poi5</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD5">
-                                            <block type="text" id="Jig1b46~ypHG$$[c_YQd">
-                                              <field name="TEXT">poi6</field>
-                                            </block>
-                                          </value>
-                                        </block>
                                       </value>
                                       <next>
                                         <block type="tweenCameraExt" id="Mdn|u.!yyz:krVda`2}$">

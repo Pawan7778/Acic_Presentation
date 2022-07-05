@@ -19,7 +19,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1116.5420212283398" scrolly="-652.3252759384898" scale="0.7721411799470369">
+  <tab name="main" type="MainTab" active="false" scrollx="1234.54202122834" scrolly="-381.5750665588848" scale="0.7721411799470369">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="X^^vCNmPXewXio`*64Ji">animation</variable>
       <variable id="bG`Ijp]Nzj:ti=mtGOTX">directorname</variable>
@@ -720,7 +720,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="rY#O(1Eil8{%{vWQb?!l" x="-1290" y="1150">
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="rY#O(1Eil8{%{vWQb?!l" x="-1150" y="1130">
       <value name="VALUE">
         <shadow type="objectList" id="%*DUcYO9%wtVbi!JcMJ9">
           <field name="FIELDNAME">&lt;none&gt;</field>
@@ -822,73 +822,24 @@
                                     </block>
                                   </value>
                                   <next>
-                                    <block type="setHTMLElemStyle" id="t)32ecHGz#;YJFh:V|HR">
-                                      <field name="PROPERTY">display</field>
-                                      <field name="PARENT">FALSE</field>
-                                      <value name="VALUE">
-                                        <block type="text" id="Z%~!RGkX?0c7Dw7S+cS1">
-                                          <field name="TEXT">none</field>
+                                    <block type="tweenCameraExt" id="Mdn|u.!yyz:krVda`2}$">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                      <field name="MOVEMENT_TYPE">LINEAR</field>
+                                      <value name="POSITION">
+                                        <block type="objectList" id="uB11sLrhjUcIohAnZS*(">
+                                          <field name="FIELDNAME">initialEmpty</field>
                                         </block>
                                       </value>
-                                      <value name="ID">
-                                        <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
-                                          <field name="TEXT">poi1</field>
+                                      <value name="LOOKAT">
+                                        <block type="objectList" id="!oKd2,APFz(A@4.ng78/">
+                                          <field name="FIELDNAME">MainLookAt</field>
+                                        </block>
+                                      </value>
+                                      <value name="DURATION">
+                                        <shadow type="math_number" id="/h##M{S~%aED|4?ZZ4_3">
+                                          <field name="NUM">3</field>
                                         </shadow>
-                                        <block type="lists_create_with" id="=PYS3NAG0IOu,=)l0Ft@">
-                                          <mutation items="6"></mutation>
-                                          <value name="ADD0">
-                                            <block type="text" id="FLTy(C%s.?=l/hs-{pNw">
-                                              <field name="TEXT">poi1</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD1">
-                                            <block type="text" id="*P-TYpu6Xxi@do#to0:J">
-                                              <field name="TEXT">poi2</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD2">
-                                            <block type="text" id="1Nbwp1Ya5WAd0i%DLN*b">
-                                              <field name="TEXT">poi3</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD3">
-                                            <block type="text" id="REZZzKor|y*BMvQPW^|o">
-                                              <field name="TEXT">poi4</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD4">
-                                            <block type="text" id="mz6%VlFll:]E2hz,u8oO">
-                                              <field name="TEXT">poi5</field>
-                                            </block>
-                                          </value>
-                                          <value name="ADD5">
-                                            <block type="text" id="Jig1b46~ypHG$$[c_YQd">
-                                              <field name="TEXT">poi6</field>
-                                            </block>
-                                          </value>
-                                        </block>
                                       </value>
-                                      <next>
-                                        <block type="tweenCameraExt" id="Mdn|u.!yyz:krVda`2}$">
-                                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
-                                          <field name="MOVEMENT_TYPE">LINEAR</field>
-                                          <value name="POSITION">
-                                            <block type="objectList" id="uB11sLrhjUcIohAnZS*(">
-                                              <field name="FIELDNAME">initialEmpty</field>
-                                            </block>
-                                          </value>
-                                          <value name="LOOKAT">
-                                            <block type="objectList" id="!oKd2,APFz(A@4.ng78/">
-                                              <field name="FIELDNAME">MainLookAt</field>
-                                            </block>
-                                          </value>
-                                          <value name="DURATION">
-                                            <shadow type="math_number" id="/h##M{S~%aED|4?ZZ4_3">
-                                              <field name="NUM">3</field>
-                                            </shadow>
-                                          </value>
-                                        </block>
-                                      </next>
                                     </block>
                                   </next>
                                 </block>
@@ -906,7 +857,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="D~c2e%C-^GM03I)Z;qqS" x="-1310" y="1390">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="D~c2e%C-^GM03I)Z;qqS" x="-1350" y="1210">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -999,7 +950,7 @@
                                   </value>
                                   <next>
                                     <block type="tweenCameraExt" id=",=xIA+J$q59e|:3-7GAL">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
                                       <field name="MOVEMENT_TYPE">LINEAR</field>
                                       <value name="POSITION">
                                         <block type="objectList" id="qih{2q;{Qa8#J^c_BU|/">
@@ -1016,55 +967,6 @@
                                           <field name="NUM">0</field>
                                         </shadow>
                                       </value>
-                                      <statement name="DO">
-                                        <block type="setHTMLElemStyle" id="|bari_^by3k)UlPf:+WS">
-                                          <field name="PROPERTY">display</field>
-                                          <field name="PARENT">FALSE</field>
-                                          <value name="VALUE">
-                                            <block type="text" id="Q0[o`fJ[zYRDJ4X3,Q(}">
-                                              <field name="TEXT">block</field>
-                                            </block>
-                                          </value>
-                                          <value name="ID">
-                                            <shadow type="text" id="Ab$a:X/pvwZSKUL0H{)!">
-                                              <field name="TEXT">poi1</field>
-                                            </shadow>
-                                            <block type="lists_create_with" id="QVY]g6CL}^mmN6`;3:fs">
-                                              <mutation items="6"></mutation>
-                                              <value name="ADD0">
-                                                <block type="text" id="[HqAF}z}$+rx09p,,0{s">
-                                                  <field name="TEXT">poi1</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD1">
-                                                <block type="text" id="?;Fd4G2:4gTpodC.6F6j">
-                                                  <field name="TEXT">poi2</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD2">
-                                                <block type="text" id=".T5e@y-1HGnf:n1-0;Va">
-                                                  <field name="TEXT">poi3</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD3">
-                                                <block type="text" id="7j,LA3NTk`8z1{6|tLXB">
-                                                  <field name="TEXT">poi4</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD4">
-                                                <block type="text" id="Kz?Reb1Hf5C?]JoETG#9">
-                                                  <field name="TEXT">poi5</field>
-                                                </block>
-                                              </value>
-                                              <value name="ADD5">
-                                                <block type="text" id="3aM]NIUY1TrZuY2vYEZ/">
-                                                  <field name="TEXT">poi6</field>
-                                                </block>
-                                              </value>
-                                            </block>
-                                          </value>
-                                        </block>
-                                      </statement>
                                     </block>
                                   </next>
                                 </block>
@@ -1083,12 +985,12 @@
       </statement>
     </block>
   </tab>
-  <tab name="Annotation" type="SecondaryTab" active="false" scrollx="54.99999999999966" scrolly="323.4" scale="0.9">
-    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="X27}rf96`Pa{vbv$}LIn" x="130" y="-110">
+  <tab name="Annotation" type="SecondaryTab" active="true" scrollx="3.410605131648481e-13" scrolly="1.1368683772161603e-13" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="X27}rf96`Pa{vbv$}LIn" x="130" y="290">
       <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
       <value name="ANNOTATION">
         <shadow type="text" id=":4t*z*3y`7i.*]ac5t%D">
-          <field name="TEXT">Desk 1</field>
+          <field name="TEXT">Desk1</field>
         </shadow>
       </value>
       <value name="TARGET">
@@ -1102,8 +1004,8 @@
         </shadow>
         <block type="textMultiline" id="7d~[ONKY(f}nq@ny(|.[">
           <field name="HIGHLIGHT_MODE">text</field>
-          <field name="TEXT">Ananya Mukhopadya
-&lt;/br&gt;
+          <field name="TEXT">Mrs Ananya Mukhopadya
+
 Hi! I am your english teacher
           </field>
         </block>
@@ -1113,166 +1015,6 @@ Hi! I am your english teacher
           <field name="TEXT">poi1</field>
         </shadow>
       </value>
-      <next>
-        <block type="addAnnotation" id="?*Kf[p[`~-zjf4v,:VH7">
-          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
-          <value name="ANNOTATION">
-            <shadow type="text" id="E3!lLwJvZ~Vw;Yv$B3hp">
-              <field name="TEXT">Desk 2</field>
-            </shadow>
-          </value>
-          <value name="TARGET">
-            <shadow type="objectList" id="ERiOco(bi6v;70M5gsy9">
-              <field name="FIELDNAME">Empty.001</field>
-            </shadow>
-          </value>
-          <value name="CONTENTS">
-            <shadow type="text" id="oV]$7zdn~#5-^1g,DtQP">
-              <field name="TEXT">Mrs Ananya </field>
-            </shadow>
-            <block type="textMultiline" id="]Y7VL1|0jguWNt^q8_$O">
-              <field name="HIGHLIGHT_MODE">text</field>
-              <field name="TEXT">Shikandar Khan
-&lt;/br&gt;
-Hi! I am your Math teacher
-              </field>
-            </block>
-          </value>
-          <value name="ID">
-            <shadow type="text" id="dq]osgwlG|WTfk8=ZWZr">
-              <field name="TEXT">poi2</field>
-            </shadow>
-          </value>
-          <next>
-            <block type="addAnnotation" id="T+K//*g5yX+Kxm3|f?V0">
-              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
-              <value name="ANNOTATION">
-                <shadow type="text" id="vXkrpg%#)-Fs^6`RmAbL">
-                  <field name="TEXT">Desk 3</field>
-                </shadow>
-              </value>
-              <value name="TARGET">
-                <shadow type="objectList" id="2OU@Ysr|aK3dFI@{yd3F">
-                  <field name="FIELDNAME">Empty.002</field>
-                </shadow>
-              </value>
-              <value name="CONTENTS">
-                <shadow type="text" id="oV]$7zdn~#5-^1g,DtQP">
-                  <field name="TEXT">Mrs Ananya </field>
-                </shadow>
-                <block type="textMultiline" id="H#_v-z=T82#hydZ]R1U{">
-                  <field name="HIGHLIGHT_MODE">text</field>
-                  <field name="TEXT">Joy chatterjee
-&lt;/br&gt;
-Hi! I am your Physics teacher
-                  </field>
-                </block>
-              </value>
-              <value name="ID">
-                <shadow type="text" id="0hbEnAlO|d3,YHf:W9ov">
-                  <field name="TEXT">poi3</field>
-                </shadow>
-              </value>
-              <next>
-                <block type="addAnnotation" id="m4-beFdo37ySqczy0=Mj">
-                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
-                  <value name="ANNOTATION">
-                    <shadow type="text" id="H^XJ47HgV[zo,$hl!vM.">
-                      <field name="TEXT"> Desk 4</field>
-                    </shadow>
-                  </value>
-                  <value name="TARGET">
-                    <shadow type="objectList" id="K~N?,5=5]|LOHekqC/[/">
-                      <field name="FIELDNAME">Empty.003</field>
-                    </shadow>
-                  </value>
-                  <value name="CONTENTS">
-                    <shadow type="text" id="oV]$7zdn~#5-^1g,DtQP">
-                      <field name="TEXT">Mrs Ananya </field>
-                    </shadow>
-                    <block type="textMultiline" id="Elg|cf$wG2!U*wz$rfdb">
-                      <field name="HIGHLIGHT_MODE">text</field>
-                      <field name="TEXT">Ashif Khan
-&lt;/br&gt;
-Hi! I am your Chemistry teacher
-                      </field>
-                    </block>
-                  </value>
-                  <value name="ID">
-                    <shadow type="text" id="cN0az)P`rEk_qKhbuQG~">
-                      <field name="TEXT">poi4</field>
-                    </shadow>
-                  </value>
-                  <next>
-                    <block type="addAnnotation" id="y4Y/z_n?{b*$9c~Lf;CZ">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
-                      <value name="ANNOTATION">
-                        <shadow type="text" id="5Ad+i#/,+4DkaAz4G(xi">
-                          <field name="TEXT">Desk 5</field>
-                        </shadow>
-                      </value>
-                      <value name="TARGET">
-                        <shadow type="objectList" id="TT;_|?i$?mZ+--_GKG+1">
-                          <field name="FIELDNAME">Empty.004</field>
-                        </shadow>
-                      </value>
-                      <value name="CONTENTS">
-                        <shadow type="text" id="oV]$7zdn~#5-^1g,DtQP">
-                          <field name="TEXT">Mrs Ananya </field>
-                        </shadow>
-                        <block type="textMultiline" id="1KiwPcSffvG4vLPu6tGt">
-                          <field name="HIGHLIGHT_MODE">text</field>
-                          <field name="TEXT">CD Singh
-&lt;/br&gt;
-Hi! I am your PT teacher
-                          </field>
-                        </block>
-                      </value>
-                      <value name="ID">
-                        <shadow type="text" id="Ft.:Agh=XOHbx8sa9U=x">
-                          <field name="TEXT">poi5</field>
-                        </shadow>
-                      </value>
-                      <next>
-                        <block type="addAnnotation" id="q$AXUDN{x@[rG]p#;QeJ">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
-                          <value name="ANNOTATION">
-                            <shadow type="text" id="h*W1tgLm`Ug@ggr/#*xG">
-                              <field name="TEXT">Desk 6</field>
-                            </shadow>
-                          </value>
-                          <value name="TARGET">
-                            <shadow type="objectList" id="3TFg0Mv2Gf){q9Y.[ZMP">
-                              <field name="FIELDNAME">Empty.006</field>
-                            </shadow>
-                          </value>
-                          <value name="CONTENTS">
-                            <shadow type="text" id="oV]$7zdn~#5-^1g,DtQP">
-                              <field name="TEXT">Mrs Ananya </field>
-                            </shadow>
-                            <block type="textMultiline" id="mo7V).[.0t144.{z](50">
-                              <field name="HIGHLIGHT_MODE">text</field>
-                              <field name="TEXT">Varun Dhawan
-&lt;/br&gt;
-Hi! I am your Acting teacher
-                              </field>
-                            </block>
-                          </value>
-                          <value name="ID">
-                            <shadow type="text" id=":x34V(;m(O@ea_b2CTb6">
-                              <field name="TEXT">poi6</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </next>
-                    </block>
-                  </next>
-                </block>
-              </next>
-            </block>
-          </next>
-        </block>
-      </next>
     </block>
   </tab>
   <editorsettings viewport-x="1038.6" viewport-y="73" viewport-w="546.4" viewport-h="331.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
