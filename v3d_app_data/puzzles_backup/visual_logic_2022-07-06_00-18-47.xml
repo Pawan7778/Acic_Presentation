@@ -753,7 +753,7 @@
           </value>
           <value name="LOOKAT">
             <block type="objectList" id="4(RrzcqLlp)(gT].P+[R">
-              <field name="FIELDNAME">Plane.032</field>
+              <field name="FIELDNAME">Door</field>
             </block>
           </value>
           <value name="DURATION">
@@ -880,7 +880,7 @@
           </value>
           <value name="LOOKAT">
             <block type="objectList" id="!#TbhWCBWzwCyM9WRP!3">
-              <field name="FIELDNAME">Plane.032</field>
+              <field name="FIELDNAME">&lt;none&gt;</field>
             </block>
           </value>
           <value name="DURATION">

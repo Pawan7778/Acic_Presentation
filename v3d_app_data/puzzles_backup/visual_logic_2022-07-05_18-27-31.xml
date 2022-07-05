@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="1115.1325440295482" scrolly="578.7607348324432" scale="0.7793451749192758">
-    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="=nC`xwtweM1#jTR:sAA~" x="-350" y="-370">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="=nC`xwtweM1#jTR:sAA~" x="-1290" y="-350">
       <statement name="DO_END">
         <block type="setHTMLElemStyle" id="FW7,5lScus^j|xFCOJ*_">
           <field name="PROPERTY">display</field>
@@ -12,14 +12,14 @@
           </value>
           <value name="ID">
             <shadow type="text" id="jtmWgO^`u9WwKN;=?lWF">
-              <field name="TEXT">pl</field>
+              <field name="TEXT">preloader</field>
             </shadow>
           </value>
         </block>
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1168.9309568256172" scrolly="-481.49121077065365" scale="0.733222963376333">
+  <tab name="main" type="MainTab" active="true" scrollx="1146.484789818126" scrolly="-643.7802090038338" scale="0.9017345000961007">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="X^^vCNmPXewXio`*64Ji">animation</variable>
       <variable id="bG`Ijp]Nzj:ti=mtGOTX">directorname</variable>
@@ -575,12 +575,12 @@
               <field name="MOVEMENT_TYPE">SPHERICAL</field>
               <value name="POSITION">
                 <block type="objectList" id="ICou3xgz(SzMZN?n}Z]E">
-                  <field name="FIELDNAME">initialEmpty</field>
+                  <field name="FIELDNAME">initialPlace</field>
                 </block>
               </value>
               <value name="LOOKAT">
                 <block type="objectList" id="Ox=_-d[^JTDbdm3c:BzB">
-                  <field name="FIELDNAME">MainLookAt</field>
+                  <field name="FIELDNAME">mainLookAt</field>
                 </block>
               </value>
               <value name="DURATION">
@@ -669,23 +669,6 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="bloom" id="PEg|/n!]D?_HfB=u0(XH" x="50" y="670">
-      <value name="THRESHOLD">
-        <shadow type="number_slider" id="nzM#u~BVf#To6dE,1~Gc">
-          <field name="NUM" min="0" max="10" step="0.1">2.4</field>
-        </shadow>
-      </value>
-      <value name="STRENGTH">
-        <shadow type="number_slider" id=")_pFn~1U^F$.kbgZ]=lL">
-          <field name="NUM" min="0" max="10" step="0.1">1</field>
-        </shadow>
-      </value>
-      <value name="RADIUS">
-        <shadow type="number_slider" id="Gl#DI?p!CsB05b~bySmU">
-          <field name="NUM" min="0" max="10" step="0.1">10</field>
-        </shadow>
-      </value>
-    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="q1Gw{PxG8];uq7TvaM1v" x="-1310" y="1010">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
@@ -704,12 +687,12 @@
           <field name="MOVEMENT_TYPE">SPHERICAL</field>
           <value name="POSITION">
             <block type="objectList" id="8bLr*,W|c;bp^*GtM*1N">
-              <field name="FIELDNAME">initialEmpty</field>
+              <field name="FIELDNAME">initialPlace</field>
             </block>
           </value>
           <value name="LOOKAT">
             <block type="objectList" id="`_TTnkFhYZ-tAJPEsN~E">
-              <field name="FIELDNAME">MainLookAt</field>
+              <field name="FIELDNAME">mainLookAt</field>
             </block>
           </value>
           <value name="DURATION">
@@ -720,17 +703,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="rY#O(1Eil8{%{vWQb?!l" x="-1150" y="1130">
-      <value name="VALUE">
-        <shadow type="objectList" id="%*DUcYO9%wtVbi!JcMJ9">
-          <field name="FIELDNAME">&lt;none&gt;</field>
-        </shadow>
-        <block type="groupList" id="cx/Iau1ym-e}Mr}9y_4+">
-          <field name="FIELDNAME">lab</field>
-        </block>
-      </value>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="@9M+oG}qb4g$[d)CizbG" x="-390" y="1110">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="@9M+oG}qb4g$[d)CizbG" x="-370" y="1070">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -857,7 +830,17 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="D~c2e%C-^GM03I)Z;qqS" x="-1350" y="1210">
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="rY#O(1Eil8{%{vWQb?!l" x="-1150" y="1130">
+      <value name="VALUE">
+        <shadow type="objectList" id="%*DUcYO9%wtVbi!JcMJ9">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="cx/Iau1ym-e}Mr}9y_4+">
+          <field name="FIELDNAME">lab</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="D~c2e%C-^GM03I)Z;qqS" x="-1290" y="1190">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -959,7 +942,7 @@
                                       </value>
                                       <value name="LOOKAT">
                                         <block type="objectList" id="-wblCwpixYLC_{X4Q)i#">
-                                          <field name="FIELDNAME">officeLookAt</field>
+                                          <field name="FIELDNAME">Lamp_base</field>
                                         </block>
                                       </value>
                                       <value name="DURATION">
@@ -983,6 +966,23 @@
           </statement>
         </block>
       </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="bloom" id="PEg|/n!]D?_HfB=u0(XH" x="-1050" y="1530">
+      <value name="THRESHOLD">
+        <shadow type="number_slider" id="nzM#u~BVf#To6dE,1~Gc">
+          <field name="NUM" min="0" max="10" step="0.1">0.5</field>
+        </shadow>
+      </value>
+      <value name="STRENGTH">
+        <shadow type="number_slider" id=")_pFn~1U^F$.kbgZ]=lL">
+          <field name="NUM" min="0" max="10" step="0.1">1</field>
+        </shadow>
+      </value>
+      <value name="RADIUS">
+        <shadow type="number_slider" id="Gl#DI?p!CsB05b~bySmU">
+          <field name="NUM" min="0" max="10" step="0.1">10</field>
+        </shadow>
+      </value>
     </block>
   </tab>
   <editorsettings viewport-x="1038.6" viewport-y="73" viewport-w="546.4" viewport-h="331.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
