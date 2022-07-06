@@ -36,34 +36,27 @@ body {
 /* removes tap blinking on ios devices */
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
 
-a{
-    display: none;
-}
 
 #poi1{
-    display: none;
+    display: block;
 }
 
 #poi2{
-    display: none;
+    display: block;
 }
 
 #poi3{
-    display: none;
+    display: block;
 }
 
 #poi4{
-    display: none;
+    display: block;
 }
 
 #poi5{
-    display: none;
+    display: block;
 }
 
 #poi6{
-    display: none;
-}
-
-#poi7{
-    display: none;
+    display: block;
 }
